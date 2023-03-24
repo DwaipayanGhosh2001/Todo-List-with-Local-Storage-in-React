@@ -35,7 +35,10 @@ localStorage.setItem("todos", JSON.stringify(todos))
     }
     return(
     <Container>
-        <h1>Todo Application with Local Storage</h1>
+        <div className="title">
+        <h1>Todo Application with Local Storage </h1>
+        <h2>{new Date().toLocaleString("en-US", { day : '2-digit', month: '2-digit', year:"2-digit"})}</h2>
+        </div>
         <Todos todoitems={todos} removeTodos={removeTodo} />
         <Todoform addTodos={addTodo}/>
     </Container>

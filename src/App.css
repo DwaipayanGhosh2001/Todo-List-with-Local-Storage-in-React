@@ -12,7 +12,7 @@ body {
   height: 100vh;
   overflow: hidden;
 }
-h1 {
+.title {
   text-align: center;
   margin-top: 20px;
   color: aliceblue;
@@ -36,6 +36,7 @@ h1 {
   border-top-left-radius: 20px;
   border: 1px solid black;
   padding-left: 10px;
+  padding: 10px;
  
 }
 

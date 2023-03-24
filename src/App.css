@@ -8,27 +8,40 @@
 
 body {
   position: relative;
-  background-color: rgb(104, 104, 104);
+  background-image: linear-gradient(rgb(54, 29, 197), rgb(237, 7, 7));
+  height: 100vh;
+  overflow: hidden;
 }
 h1 {
   text-align: center;
   margin-top: 20px;
   color: aliceblue;
 }
-form {
-  position: fixed;
-  bottom: 200px;
-  right: 30%;
-  left: 30%;
-  border-radius: 8px;
-  color: #000;
-}
+ form {
+  
+  margin-top: 200px;
+  width: 80% !important;
+
+
+}  
 
 .items {
-  position: fixed;
-  top: 50px;
-  right: 30%;
-  left: 30%;
-  border-radius: 8px;
+ 
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+
+}
+.input{
+  border-top-left-radius: 20px;
+  border: 1px solid black;
+  padding-left: 10px;
+ 
 }
 
+/* @media only screen and (max-width: 480px)
+{
+  form{
+   
+  }
+} */

@@ -24,10 +24,11 @@ setTodoStr("");
 }
 
     return (
-        <Form onSubmit={todoSubmit}>
+        <Form onSubmit={todoSubmit} className="mx-auto">
             <FormGroup>
                 <InputGroup>
                 <Input 
+                className="input"
                 type="text"
                 name="todo"
                 id="todo"
@@ -35,7 +36,7 @@ setTodoStr("");
                 value={todoStr}
                 onChange={e => setTodoStr(e.target.value)}
                 />
-                <Button color="success">Add Todo</Button>
+                <Button color="success" style={{borderTopRightRadius: "20px", border: "1px solid black"}}>Add Todo</Button>
                 </InputGroup>
             </FormGroup>
         </Form>
